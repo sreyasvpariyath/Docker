@@ -1,8 +1,8 @@
 # gini-skill-challange
 Navigate to the root of the project(folder containing pom.xml)<br/>
-Build docker image
-	docker build -t docker/sboot:v.0.0 .
-Run 
+Build docker image<br/>
+	docker build -t docker/sboot:v.0.0 .<br/>
+Run <br/>
 	docker run -p 8080:8080 docker/sboot:v.0.0
 
 Users available (As configured in the src/main/resources/application.yml)
